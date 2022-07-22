@@ -1,0 +1,115 @@
+html{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+body {
+    font-family: 'Montserrat', serif;
+}
+
+header{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.el{
+    flex-grow: 1;
+}
+
+.el ul{
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.el li{
+    margin-right: 20px;
+}
+
+.el li:last-child{
+    margin-right: 0;
+}
+
+.el a{
+    padding: 8px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    padding: 8px;
+}
+
+main{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content{
+    justify-content: center;
+}
+
+form{
+    width: 350px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input{
+    font-size: 15px;
+}
+
+input[type='text'], input[type='password']{
+    text-align:center;
+    display: block;
+    width: 100%;
+    border: 1px solid #818181;
+    padding: 5px;
+}
+
+input[type='submit']{
+    margin-top: 20px;
+    height: 30px;
+}
+
+reg, login{
+    margin:100px auto 0;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 400px;
+
+    background-color: #f3f2f4;
+    border-radius: 20px;
+}
+
+complete{
+    margin:100px auto 0;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+
+    background-color: #f3f2f4;
+    border-radius: 20px;
+}
+
+input{
+    font-family: 'Montserrat', serif;
+}
